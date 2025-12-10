@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Algo>
-    <description texte="" courant="DEBUT_ALGORITHME"/>
+    <description courant="DEBUT_ALGORITHME" texte=""/>
     <extension extnom="inactif"/>
-    <fonction fctetat="inactif" fctcode=""/>
-    <F2 F2lignes="" F2defaut="" F2para="" F2etat="inactif"/>
+    <fonction fctcode="" fctetat="inactif"/>
+    <F2 F2defaut="" F2lignes="" F2para="" F2etat="inactif"/>
     <repere repcode="-10#10#-10#10#2#2" repetat="inactif"/>
-    <param arrondiAuto="vrai" totalAffichages="1000" epaisseurPoint="2" nbDecimales="8" maxBoucle="500000" totalBoucles="5000000" epaisseurLigne="2"/>
-    <item algoitem="FONCTIONS_UTILISEES" code="200#declarationfonctions"/>
-    <item algoitem="VARIABLES" code="100#declarationsvariables">
-        <item algoitem="E EST_DU_TYPE NOMBRE" code="1#NOMBRE#E"/>
+    <param epaisseurLigne="2" nbDecimales="8" maxBoucle="500000" totalAffichages="1000" arrondiAuto="vrai" epaisseurPoint="2" totalBoucles="5000000"/>
+    <item code="200#declarationfonctions" algoitem="FONCTIONS_UTILISEES"/>
+    <item code="100#declarationsvariables" algoitem="VARIABLES">
+        <item code="1#NOMBRE#R" algoitem="R EST_DU_TYPE NOMBRE"/>
     </item>
-    <item algoitem="DEBUT_ALGORITHME" code="101#debutalgo"/>
-    <item algoitem="FIN_ALGORITHME" code="102#finalgo"/>
+    <item code="101#debutalgo" algoitem="DEBUT_ALGORITHME"/>
+    <item code="102#finalgo" algoitem="FIN_ALGORITHME"/>
 </Algo>
